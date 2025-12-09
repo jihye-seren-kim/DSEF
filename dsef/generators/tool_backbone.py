@@ -8,8 +8,8 @@ class ToolBackbone:
 
     def generate(self, df_real: pd.DataFrame, n_per_class: int) -> pd.DataFrame:
         """
-        현재는 그냥 real 데이터를 class별로 샘플링하는 placeholder.
-        나중에 TRex/MoonGen replay 결과를 flow-level로 aggregate해서 반환하도록 교체.
+        placeholder: real data -> class sampling
+        TRex/MoonGen replay result - flow-level aggregate later
         """
         label_col = "label"
         dfs = []
